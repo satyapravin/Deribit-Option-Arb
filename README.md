@@ -1,3 +1,11 @@
+# Important Notice
+
+We are not responsible for ensuring the overall performance of Software or any related applications. Any test results or performance figures are indicative and will not reflect performance under all conditions. Software may contain components that are open sourced and subject to their own licenses; you are responsible for ensuring your compliance with those licenses.
+
+We make no representation, warranty, guarantee or undertaking in respect of Software, whether expressed or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall we be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the Software or the use or other dealings in the Software.
+
+
+
 # Option Arbitrage on Deribit
 
 This tool identifies opportunities in Deribit options with various parameterizations by constructing a portfolio of options that can be delta hedged to generate P/L. It should ideally be used across three option expiries.
