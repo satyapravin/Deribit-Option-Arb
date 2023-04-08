@@ -9,7 +9,7 @@ if __name__ == '__main__':
     window = QMainWindow()
     ui = Ui_optionAtillaWindow()
     ui.setupUi(window)
-    atilla = Atilla(app, "config\\config.ini")
+    atilla = Atilla(app, "config.ini")
     atilla.setWindow(ui, window)
     window.show()
     sys.exit(app.exec())
