@@ -9,15 +9,16 @@ This tool identifies opportunities in Deribit options with various parameterizat
 To use this tool, refer to screenshot below and do the following:
 
 1. Add API key and secret to config/config.ini for TEST and PROD.
-2. Select environment on screen.
-3. Click on Connect button.
-4. Select your criteria and Click Fetch Button.
-5. Click on Compute to identify your portfolio (if exists).
-6. You can choose to trade this portfolio too (note: It is not guaranteed the options will be bought/sold at the limit price)
+2. Run src/program.py
+3. Select environment on screen.
+4. Click on Connect button.
+5. Select your criteria and Click Fetch Button.
+6. Click on Compute to identify your portfolio (if exists).
+7. You can choose to trade this portfolio too (note: It is not guaranteed the options will be bought/sold at the limit price)
 
 
 
-Important: This is work in progress and use at your own risk. If you want to colloborate please extend tool to show executed trades and missing executions.
+Important: This is work in progress and USE AT YOUR OWN RISK. If you want to colloborate please extend tool to show executed trades and missing executions.
 
 ![Screenshot](screen.jpeg)
 
