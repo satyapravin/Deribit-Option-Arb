@@ -7,6 +7,6 @@ This tool identifies opportunities in Deribit options with various parameterizat
 3. Minimize Cost (hopefully sometimes you can find a portfolio with postive gamma/negative theta at zero cost!)
 
 
-.. image:: https://github.com/satyapravin/Deribit-Option-Arb/blob/master/screen.jpeg
+![Screenshot](screen.jpeg)
 
 
