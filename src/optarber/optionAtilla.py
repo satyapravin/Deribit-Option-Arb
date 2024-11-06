@@ -1,4 +1,5 @@
 import configparser
+
 from datetime import datetime as dt
 import opstrat
 from account_data import AccountData
@@ -104,7 +105,7 @@ class Atilla(QtCore.QObject):
 		if instr not in self.subscribed:
 			self.subscribed.add(instr)
 			self.window.progressBarFetch.setVisible(False)
-			self.window.progressBarFetch.setValue(len(self.subscribed) * 100.0 / self.counter)
+			self.window.progressBarFetch.setValue(len(self.subscribed) * int(100.0 / self.counter))
 			self.window.progressBarFetch.setVisible(True)
 
 		greeks = mkt_data['greeks']
@@ -193,7 +194,7 @@ class Atilla(QtCore.QObject):
 		now = dt.today()
 		self.queryPos()
 		self.fetchInstruments(now, curr, idxPrice, pctStrike, minExpiry, maxExpiry)
-		self.window.progressBarFetch.setValue(len(self.subscribed) * 100.0 / self.counter)
+		self.window.progressBarFetch.setValue(len(self.subscribed) * int(100.0 / self.counter))
 		self.window.labelNumOfOptions.setText(str(self.counter) + " options")
 
 	def timestamp_to_datetime(self, timestamp): 
